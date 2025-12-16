@@ -34,7 +34,7 @@
     <use href="#logo" x="50" y="300" width="60" height="60" transform="rotate(8 50 300)" />
     <use href="#logo" x="200" y="320" width="45" height="45" transform="rotate(-25 200 320)" />
     <use href="#logo" x="340" y="340" width="55" height="55" transform="rotate(15 340 340)" />
-    <use href="#logo" x="490" y="330" width="45" height="45" transform="rotate(-10 490 330)" />
+    <use href="#logo" x="490" y="330" width="50" height="50" transform="rotate(-10 490 330)" />
     <use href="#logo" x="630" y="360" width="50" height="50" transform="rotate(18 630 360)" />
     <use href="#logo" x="730" y="350" width="40" height="40" transform="rotate(-22 730 350)" />
 
