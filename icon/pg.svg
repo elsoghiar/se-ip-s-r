@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 800 600">
   <defs>
-    <linearGradient id="fade" x1="0.8" y1="0" x2="0.2" y2="0.6">
+    <linearGradient id="fade" x1="1" y1="0" x2="0.3" y2="0.6">
       <stop offset="0%" stop-color="white" stop-opacity="1"/>
       <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
@@ -15,34 +15,49 @@
   </defs>
 
   <rect width="100%" height="100%" fill="none" mask="url(#fadeMask)" />
-  
+
   <g opacity="0.25" mask="url(#fadeMask)">
-    <use href="#logo" x="40" y="40" width="35" height="35" transform="rotate(-10 40 40)" />
-    <use href="#logo" x="160" y="60" width="50" height="50" transform="rotate(12 160 60)" />
-    <use href="#logo" x="280" y="80" width="40" height="40" transform="rotate(-22 280 80)" />
-    <use href="#logo" x="400" y="70" width="60" height="60" transform="rotate(15 400 70)" />
-    <use href="#logo" x="540" y="90" width="35" height="35" transform="rotate(-8 540 90)" />
-    <use href="#logo" x="680" y="110" width="45" height="45" transform="rotate(18 680 110)" />
+    <!-- الصف الأول -->
+    <use href="#logo" x="40"  y="40"  width="35" height="35" transform="rotate(-8 40 40)" />
+    <use href="#logo" x="160" y="40"  width="45" height="45" transform="rotate(10 160 40)" />
+    <use href="#logo" x="280" y="40"  width="50" height="50" transform="rotate(-12 280 40)" />
+    <use href="#logo" x="400" y="40"  width="55" height="55" transform="rotate(14 400 40)" />
+    <use href="#logo" x="520" y="40"  width="45" height="45" transform="rotate(-10 520 40)" />
+    <use href="#logo" x="640" y="40"  width="60" height="60" transform="rotate(12 640 40)" />
+    <use href="#logo" x="740" y="40"  width="40" height="40" transform="rotate(-6 740 40)" />
 
-    <use href="#logo" x="90" y="180" width="40" height="40" transform="rotate(25 90 180)" />
-    <use href="#logo" x="220" y="200" width="55" height="55" transform="rotate(-15 220 200)" />
-    <use href="#logo" x="370" y="190" width="45" height="45" transform="rotate(10 370 190)" />
-    <use href="#logo" x="520" y="210" width="60" height="60" transform="rotate(-20 520 210)" />
-    <use href="#logo" x="650" y="220" width="50" height="50" transform="rotate(22 650 220)" />
-    <use href="#logo" x="750" y="230" width="40" height="40" transform="rotate(-12 750 230)" />
+    <!-- الصف الثاني -->
+    <use href="#logo" x="100" y="150" width="45" height="45" transform="rotate(10 100 150)" />
+    <use href="#logo" x="220" y="150" width="55" height="55" transform="rotate(-14 220 150)" />
+    <use href="#logo" x="340" y="150" width="40" height="40" transform="rotate(16 340 150)" />
+    <use href="#logo" x="460" y="150" width="50" height="50" transform="rotate(-12 460 150)" />
+    <use href="#logo" x="580" y="150" width="60" height="60" transform="rotate(8 580 150)" />
+    <use href="#logo" x="700" y="150" width="45" height="45" transform="rotate(-16 700 150)" />
 
-    <use href="#logo" x="50" y="300" width="60" height="60" transform="rotate(8 50 300)" />
-    <use href="#logo" x="200" y="320" width="45" height="45" transform="rotate(-25 200 320)" />
-    <use href="#logo" x="340" y="340" width="55" height="55" transform="rotate(15 340 340)" />
-    <use href="#logo" x="490" y="330" width="50" height="50" transform="rotate(-10 490 330)" />
-    <use href="#logo" x="630" y="360" width="50" height="50" transform="rotate(18 630 360)" />
-    <use href="#logo" x="730" y="350" width="40" height="40" transform="rotate(-22 730 350)" />
+    <!-- الصف الثالث -->
+    <use href="#logo" x="40"  y="260" width="50" height="50" transform="rotate(14 40 260)" />
+    <use href="#logo" x="160" y="260" width="55" height="55" transform="rotate(-10 160 260)" />
+    <use href="#logo" x="280" y="260" width="45" height="45" transform="rotate(12 280 260)" />
+    <use href="#logo" x="400" y="260" width="60" height="60" transform="rotate(-8 400 260)" />
+    <use href="#logo" x="520" y="260" width="50" height="50" transform="rotate(10 520 260)" />
+    <use href="#logo" x="640" y="260" width="40" height="40" transform="rotate(-14 640 260)" />
+    <use href="#logo" x="740" y="260" width="55" height="55" transform="rotate(12 740 260)" />
 
-    <use href="#logo" x="100" y="440" width="35" height="35" transform="rotate(12 100 440)" />
-    <use href="#logo" x="250" y="450" width="50" height="50" transform="rotate(-8 250 450)" />
-    <use href="#logo" x="380" y="470" width="55" height="55" transform="rotate(20 380 470)" />
-    <use href="#logo" x="520" y="480" width="40" height="40" transform="rotate(-15 520 480)" />
-    <use href="#logo" x="660" y="490" width="60" height="60" transform="rotate(10 660 490)" />
-    <use href="#logo" x="750" y="500" width="45" height="45" transform="rotate(-18 750 500)" />
+    <!-- الصف الرابع -->
+    <use href="#logo" x="100" y="370" width="60" height="60" transform="rotate(-8 100 370)" />
+    <use href="#logo" x="220" y="370" width="50" height="50" transform="rotate(14 220 370)" />
+    <use href="#logo" x="340" y="370" width="55" height="55" transform="rotate(-10 340 370)" />
+    <use href="#logo" x="460" y="370" width="45" height="45" transform="rotate(12 460 370)" />
+    <use href="#logo" x="580" y="370" width="50" height="50" transform="rotate(-14 580 370)" />
+    <use href="#logo" x="700" y="370" width="60" height="60" transform="rotate(10 700 370)" />
+
+    <!-- الصف الخامس -->
+    <use href="#logo" x="40"  y="480" width="45" height="45" transform="rotate(-10 40 480)" />
+    <use href="#logo" x="160" y="480" width="55" height="55" transform="rotate(12 160 480)" />
+    <use href="#logo" x="280" y="480" width="40" height="40" transform="rotate(-8 280 480)" />
+    <use href="#logo" x="400" y="480" width="50" height="50" transform="rotate(14 400 480)" />
+    <use href="#logo" x="520" y="480" width="60" height="60" transform="rotate(-12 520 480)" />
+    <use href="#logo" x="640" y="480" width="50" height="50" transform="rotate(10 640 480)" />
+    <use href="#logo" x="740" y="480" width="45" height="45" transform="rotate(-16 740 480)" />
   </g>
 </svg>
